@@ -1,0 +1,143 @@
+/* ==========navbar======= */
+
+@media (max-width: 768px) {
+    .sidebar-nav {
+        width: 100%;
+        height: 60px;
+        bottom: 0;
+        top: auto;
+        flex-direction: row;
+        border-right: none;
+        border-top: 1px solid var(--border-color);
+        padding: 0 10px;
+    }
+
+    .sidebar-nav:hover {
+        width: 100%;
+    }
+
+    .nav-links-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .nav-text {
+        display: none;
+    }
+
+    .nav-item {
+        justify-content: center;
+        flex: 1;
+    }
+
+    #content-wrapper {
+        margin-left: 0 !important;
+        padding-bottom: 80px;
+    }
+}
+
+/* ====hero section===== */
+@media (max-width: 992px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .hero-content {
+        align-items: center;
+    }
+
+    .hero-subtitle {
+        margin: 0 auto;
+    }
+}
+
+/* =======about section======= */
+@media (max-width: 850px) {
+    .about-intro-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-bio {
+        text-align: center;
+    }
+
+    .mini-metrics {
+        justify-content: center;
+    }
+}
+
+/* =======Experience section======= */
+@media (max-width: 768px) {
+    .exp-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .exp-row:hover {
+        transform: translateY(-4px);
+    }
+}
+
+/* project section*/
+
+@media (max-width: 480px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .global-view-btn {
+        width: 100%;
+        justify-content: center;
+        padding: 14px 24px;
+        font-size: 0.95rem;
+    }
+}
+
+/* RESPONSIVE DESIGN of contact section*/
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+}
+
+
+/* RESPONSIVE FOOTER ALIGNMENT */
+@media (max-width: 850px) {
+    .footer-main-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 40px 0;
+    }
+
+    .footer-brand-col,
+    .footer-links-col {
+        text-align: center;
+    }
+
+    .footer-brand-desc,
+    .system-status-badge {
+        margin: 0 auto 20px auto;
+    }
+
+    .footer-nav a:hover {
+        transform: translateY(-2px);
+    }
+
+    .footer-bottom-bar {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+}
